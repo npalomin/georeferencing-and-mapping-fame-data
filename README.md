@@ -1,6 +1,6 @@
 ---
 title: |
-    Georeferencing and mapping fame data
+    Georeferencing and mapping FAME data
 authors:
 - Nicolas Palominos
 date: 2018-06-26
@@ -28,6 +28,12 @@ Learn how to georeference FAME data and create a interactive map in CARTO
 
 
 ### 1. Lesson goals
+
+The purpose of this lesson is to learn how to create an interactive map that enables the user to explore the geographic and spatial relations between economic activities according to their trading addresses.
+By the end of this lesson you would be able to:
+* Identify and collect the relevant data
+* Perform basic operations in QGIS
+* Create an interactive map in CARTO.
 
 
 
