@@ -8,6 +8,7 @@ reviewers:
 layout: lesson
 ---
 
-# georeferencing-and-mapping-fame-data
-lesson
+## Georeferencing and mapping FAME data
+
+Learn how to georeference FAME data and create a interactive map in CARTO
 
