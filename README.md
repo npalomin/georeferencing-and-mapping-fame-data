@@ -34,5 +34,5 @@ Learn how to georeference FAME data and create a interactive map in CARTO
 2. Lesson structure
 3. Getting Started
 4. Creating an interactive map of FAME data
-    * Georeferencing FAME data in QGIS
-    * Mapping FAME data in CARTO
+* Georeferencing FAME data in QGIS
+* Mapping FAME data in CARTO
