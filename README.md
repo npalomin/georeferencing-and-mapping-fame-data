@@ -24,7 +24,7 @@ Learn how to georeference FAME data and create a interactive map in CARTO
 
    [* Georeferencing FAME data in QGIS](#*-Georeferencing-FAME-data-in-QGIS)
     
-   [* Mapping in FAME data in CARTO](#*-Mapping-in FAME-data-in-CARTO)
+   [* Mapping FAME data in CARTO](#*-Mapping-FAME-data-in-CARTO)
 
 
 ### 1. Lesson goals
@@ -35,4 +35,4 @@ Learn how to georeference FAME data and create a interactive map in CARTO
 3. Getting Started
 4. Creating an interactive map of FAME data
     * Georeferencing FAME data in QGIS
-    * Mapping in FAME data in CARTO
+    * Mapping FAME data in CARTO
