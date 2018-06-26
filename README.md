@@ -32,8 +32,8 @@ Learn how to georeference FAME data and create a interactive map in CARTO
 The purpose of this lesson is to learn how to create an interactive map that enables the user to explore the geographic and spatial relations between economic activities according to their trading addresses.
 By the end of this lesson you would be able to:
 * Identify and collect the relevant data
-* Perform basic operations in QGIS
-* Create an interactive map in CARTO.
+* Perform basic operations to manipulate the data in QGIS
+* Create an interactive map to visualise the data in CARTO
 
 
 
