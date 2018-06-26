@@ -42,9 +42,14 @@ The lesson is organised in three sections. The first section is an introduction 
 ### 3. Getting Started
 
 **Mapping**
-While the definition of [maps](https://en.wikipedia.org/wiki/Mapping) refers in general to the description of relationships between elements, for the purpose of this lesson we will understand mapping in the [cartographic](https://en.wikipedia.org/wiki/Cartography) sense, which states *that reality can be modeled in ways that communicate spatial information effectively*. As, such in the information age, mapping has emerged as means to make the complex accesible, the hidden visible (Abrams and Hall, 2004).
+While the definition of [maps](https://en.wikipedia.org/wiki/Mapping) refers in general to the description of relationships between elements (e.g.: ideas, nodes) for the purpose of this lesson we will understand mapping in the [cartographic](https://en.wikipedia.org/wiki/Cartography) sense, which states *that reality can be modeled in ways that communicate spatial information effectively*. As such, in the information age, mapping has emerged as a means to make the complex accesible, the hidden visible (Abrams and Hall, 2004).
 
-> Think for example of attempting to understand the relationship between businesses from a list of addressess. 
+> Think for example of attempting to understand the relationship between businesses from a list of addressess.
+
+**Georeferencing**
+In simple terms [georeferencing](https://www.ordnancesurvey.co.uk/support/understanding-gis/georeferencing.html) means referencing spatial data to a location on the earth's surface. The expresion of the position (or the location) of the data is done according to a reference and coordinate systems. 
+
+Briefly speaking, spatial reference systems (SRS) or coordinate reference systems 
 
 
 4. Creating an interactive map of FAME data
