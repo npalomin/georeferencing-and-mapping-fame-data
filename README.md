@@ -40,7 +40,7 @@ By the end of this lesson you would be able to:
 
 The lesson is organised in three sections. The first section is an introduction to the resources needed to perform the next steps. The second section will focus on data manipulation in the QGIS environment. The final section refers to creating an interactive map in the CARTO platform.
 
-### 3. Getting Started
+### 3. SECTION ONE. Getting Started
 
 Disclaimer: 
 
@@ -58,7 +58,7 @@ In simple terms [georeferencing](https://www.ordnancesurvey.co.uk/support/unders
 
 > Most maps are based on the [Mercator projection](https://www.huffingtonpost.co.uk/entry/true-size-map-relative-size-of-countries_us_55eed0f5e4b002d5c076789d?guccounter=1), which has been critisized for misrepresenenting Europe and North America as larger areas *giving white nations a sense of supremacy over non-white nations* (Source: [Geoawsomeness](http://geoawesomeness.com/best-map-projection/)).
 
-### 4. Creating an interactive map of FAME data
+### 4. SECTIONS TWO & THREE. Creating an interactive map of FAME data
 
 For the creation of an interactive map we will follow two general stages: 1) Georeferencing and 2) Mapping. For this purpose you will need to have QGIS installed in your computer and an account on CARTO. 
 
@@ -66,7 +66,7 @@ For the creation of an interactive map we will follow two general stages: 1) Geo
 
 [CARTO](https://en.wikipedia.org/wiki/CartoDB) is a cloud computing platform that provides GIS and web mapping tools for display in a web browser. CARTO is offered as freemium service, where accounts are free up to a certain time. Current free account options include a [CARTO 30 days trial](https://carto.com/get-started/) and a [student account in partnership with Github](https://carto.com/community/ambassadors/) (this one might take longer to get).
 
-**\* Georeferencing FAME data in QGIS**
+**\* SECTION TWO. Georeferencing FAME data in QGIS**
 
 The first step before going into QGIS is getting the data from the FAME database (Financial Management Made Easy) published by Bureau van Dijk. The access to the FAME database you will need to log in to the [UCL library database](http://www.ucl.ac.uk/library/electronic-resources/databases) resources with your student credentials. After loging into the FAME website the first step is to search by geographic area and postcode (Geographic/Postcode). We need to specify a Postcode range indicating the 'from' and 'to' (Outward code should be enough to perform the query).[![https://gyazo.com/5944f1918b4eb35648448d3dcee5a10d](https://i.gyazo.com/5944f1918b4eb35648448d3dcee5a10d.png)](https://gyazo.com/5944f1918b4eb35648448d3dcee5a10d)
 
@@ -75,4 +75,4 @@ The first step before going into QGIS is getting the data from the FAME database
 
 search for the European Classification of Economic Activities code, or NACE code (Other activities classification/All NACE Rev. 2 codes)
 
-* Mapping FAME data in CARTO
+**\* SECTION THREE. Mapping FAME data in CARTO**
