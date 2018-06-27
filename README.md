@@ -12,6 +12,8 @@ layout: lesson
 
 Learn how to georeference FAME data and create an interactive map in CARTO
 
+[TOC]
+
 ## Contents
 
 [1. Lesson goals](#1.-Lesson-goals)
