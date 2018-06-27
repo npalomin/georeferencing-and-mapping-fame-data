@@ -68,7 +68,7 @@ For the creation of an interactive map we will follow two general stages: 1) Geo
 
 ### 5. Georeferencing FAME data in QGIS
 
-The first step before going into QGIS is getting the data from the FAME database (Financial Management Made Easy) published by Bureau van Dijk. The access to the FAME database you will need to log in to the [UCL library database](http://www.ucl.ac.uk/library/electronic-resources/databases) resources with your student credentials. After loging into the FAME website the first step is to search by geographic area and postcode (Geographic/Postcode). We need to specify a Postcode range indicating the 'from' and 'to' (Outward code should be enough to perform the query).
+The first step before going into QGIS is getting the data from the FAME database (Financial Management Made Easy) published by Bureau van Dijk. The access to the FAME database you will need to log in to the [UCL library database](http://www.ucl.ac.uk/library/electronic-resources/databases) resources with your student credentials. After loging in to the FAME website the first step is to search by geographic area and postcode (Geographic/Postcode). We need to specify a Postcode range indicating the 'from' and 'to' (Outward code should be enough to perform the query).
 
 [![https://gyazo.com/5944f1918b4eb35648448d3dcee5a10d](https://i.gyazo.com/5944f1918b4eb35648448d3dcee5a10d.png)](https://gyazo.com/5944f1918b4eb35648448d3dcee5a10d)
 
