@@ -58,7 +58,14 @@ In simple terms [georeferencing](https://www.ordnancesurvey.co.uk/support/unders
 
 ### 4. Creating an interactive map of FAME data
 
-For the creation of an interactive map we will follow two steps
+For the creation of an interactive map we will follow two general stages: 1) Georeferencing and 2) Mapping. For this purpose you will need to have QGIS installed in your computer and an account on CARTO. 
+
+[QGIS](https://en.wikipedia.org/wiki/QGIS) is a free and open-source cross-platform desktop geographic information system (GIS) application that supports viewing, editing, and analysis of geospatial data. To install it navigate to the [QGIS download page](https://qgis.org/en/site/forusers/download.html) an follow the instructions. For more a more detailed set of instructions and troubleshooting you can consult this guide to [installing QGIS](https://programminghistorian.org/en/lessons/qgis-layers).
+
+[CARTO](https://en.wikipedia.org/wiki/CartoDB) is a cloud computing platform that provides GIS and web mapping tools for display in a web browser. CARTO is offered as freemium service, where accounts are free up to a certain size. Current free account options include a [CARTO 30 days trial](https://carto.com/get-started/) and a [student account in partnership with Github](https://carto.com/community/ambassadors/)(this one might take longer to get).
 
 **\* Georeferencing FAME data in QGIS**
+
+The first step before going into 
+
 * Mapping FAME data in CARTO
