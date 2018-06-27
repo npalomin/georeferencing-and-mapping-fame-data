@@ -12,7 +12,6 @@ layout: lesson
 
 Learn how to georeference FAME data and create an interactive map in CARTO
 
-[TOC]
 
 ## Contents
 
@@ -51,13 +50,15 @@ While the definition of [maps](https://en.wikipedia.org/wiki/Mapping) refers in 
 > Think for example of attempting to understand the relationship between businesses from a list of addressess.
 
 **Georeferencing**
-In simple terms [georeferencing](https://www.ordnancesurvey.co.uk/support/understanding-gis/georeferencing.html) means referencing spatial data to a location on the earth's surface. The expresion of the position (or the location) of the data is done according to a reference and [coordinate systems](https://en.wikipedia.org/wiki/Coordinate_system)(mathematical determination of an element's position). Briefly speaking, spatial reference systems (SRS) or coordinate reference systems (CRS) are standarized by the OGC (Open Geospatial Consortium) and defines a specific map projection (e.g.: Mercator, Gall-Peters, Robinson, Stereographic). The selection of the is crucial because the spatial representation varies considerably.
+In simple terms [georeferencing](https://www.ordnancesurvey.co.uk/support/understanding-gis/georeferencing.html) means referencing spatial data to a location on the earth's surface. The expresion of the position (or the location) of the data is done according to a reference and [coordinate systems](https://en.wikipedia.org/wiki/Coordinate_system)(mathematical determination of an element's position). Briefly speaking, spatial reference systems (SRS) or coordinate reference systems (CRS) are standarized by the OGC (Open Geospatial Consortium) and defines a specific map projection (e.g.: Mercator, Gall-Peters, Robinson, Stereographic). The selection of the correct CRS is crucial because the spatial representation varies considerably between the different reference systems.
 
 ![Projection comparison](https://snag.gy/sSRXdb.jpg)
 
-> Most maps are based on the [Mercator projection](https://www.huffingtonpost.co.uk/entry/true-size-map-relative-size-of-countries_us_55eed0f5e4b002d5c076789d?guccounter=1), which has been critisized as misrepresenenting Europe and North America *giving white nations a sense of supremacy over non-white nations* (Source: [Geoawsomeness](http://geoawesomeness.com/best-map-projection/)).
+> Most maps are based on the [Mercator projection](https://www.huffingtonpost.co.uk/entry/true-size-map-relative-size-of-countries_us_55eed0f5e4b002d5c076789d?guccounter=1), which has been critisized for misrepresenenting Europe and North America as larger areas *giving white nations a sense of supremacy over non-white nations* (Source: [Geoawsomeness](http://geoawesomeness.com/best-map-projection/)).
 
+### 4. Creating an interactive map of FAME data
 
-4. Creating an interactive map of FAME data
-* Georeferencing FAME data in QGIS
+For the creation of an interactive map we will follow two steps
+
+**\* Georeferencing FAME data in QGIS**
 * Mapping FAME data in CARTO
