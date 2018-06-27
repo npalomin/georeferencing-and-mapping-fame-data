@@ -8,6 +8,10 @@ reviewers:
 layout: lesson
 ---
 
+.markdown-here-wrapper {
+  font-family: Verdana, sans;
+}
+
 ## Georeferencing and mapping FAME data
 
 Learn how to georeference FAME data and create an interactive map in CARTO
