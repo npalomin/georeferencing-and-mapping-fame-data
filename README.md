@@ -89,11 +89,17 @@ Excel /
 Export / 
 Download
 
-The sheet named 'Results' on your exported excel file should look like this
+The sheet named 'Results' on your exported excel file should look like this:
 
 [![https://gyazo.com/92f3cdf905dd68b128dfee6f2e0a4228](https://i.gyazo.com/92f3cdf905dd68b128dfee6f2e0a4228.png)](https://gyazo.com/92f3cdf905dd68b128dfee6f2e0a4228)
 
+Note that some activities don't have the information. Also, others are located in the same geographic position (equal coordinates) which might imply that these are in the same building.
 
+Next step is to save the 'Results' sheet as a CSV file.
+
+Comma Separared Values(.csv) - (not CSV UTF-8) / Save Active Sheet
+
+[![https://gyazo.com/273934822839209c9b467486ca58f64f](https://i.gyazo.com/273934822839209c9b467486ca58f64f.gif)](https://gyazo.com/273934822839209c9b467486ca58f64f)
 
 search for the European Classification of Economic Activities code, or NACE code (Other activities classification/All NACE Rev. 2 codes)
 
