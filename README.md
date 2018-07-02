@@ -72,7 +72,9 @@ The first step before going into QGIS is getting the data from the FAME database
 
 [![https://gyazo.com/5944f1918b4eb35648448d3dcee5a10d](https://i.gyazo.com/5944f1918b4eb35648448d3dcee5a10d.png)](https://gyazo.com/5944f1918b4eb35648448d3dcee5a10d)
 
+After performing the query you should be able to 
 
+[![https://gyazo.com/cb4d8dd7c62e72773ed2d5b37e101ab9](https://i.gyazo.com/cb4d8dd7c62e72773ed2d5b37e101ab9.gif)](https://gyazo.com/cb4d8dd7c62e72773ed2d5b37e101ab9)
 
 
 search for the European Classification of Economic Activities code, or NACE code (Other activities classification/All NACE Rev. 2 codes)
