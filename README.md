@@ -72,11 +72,22 @@ The first step before going into QGIS is getting the data from the FAME database
 
 [![https://gyazo.com/5944f1918b4eb35648448d3dcee5a10d](https://i.gyazo.com/5944f1918b4eb35648448d3dcee5a10d.png)](https://gyazo.com/5944f1918b4eb35648448d3dcee5a10d)
 
-After indicating the postcode range you should be able to perform the query. Follow the next steps to get the latitude and longitude of the primary trading address of the selected activities:
+After indicating the postcode range you should be able to perform the query. 
 
-Add button / Ok button / View results > / Add/remove columns / Trading addresses / Primary trading address / Primary trading address Latitude / Primary trading address Longitude / Apply / Excel / Export / Download
+Add button / Ok button / View results > / Add/remove columns 
 
 [![https://gyazo.com/cb4d8dd7c62e72773ed2d5b37e101ab9](https://i.gyazo.com/cb4d8dd7c62e72773ed2d5b37e101ab9.gif)](https://gyazo.com/cb4d8dd7c62e72773ed2d5b37e101ab9)
+
+Then, click on sections indicated in the next steps to get the latitude and longitude of the primary trading address from the selected activities:
+
+Trading addresses / 
+Primary trading address / 
+Primary trading address Latitude / 
+Primary trading address Longitude / 
+Apply / 
+Excel / 
+Export / 
+Download
 
 
 
