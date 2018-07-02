@@ -89,6 +89,10 @@ Excel /
 Export / 
 Download
 
+The sheet named 'Results' on your exported excel file should look like this
+
+[![https://gyazo.com/92f3cdf905dd68b128dfee6f2e0a4228](https://i.gyazo.com/92f3cdf905dd68b128dfee6f2e0a4228.png)](https://gyazo.com/92f3cdf905dd68b128dfee6f2e0a4228)
+
 
 
 search for the European Classification of Economic Activities code, or NACE code (Other activities classification/All NACE Rev. 2 codes)
