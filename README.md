@@ -80,6 +80,7 @@ Add / Ok / View results > / Add/remove columns
 
 Then, click on sections indicated below to get the latitude and longitude of the primary trading address from the selected activities:
 
+**Add/remove columns /
 Trading addresses / 
 Primary trading address / 
 Primary trading address Latitude / 
@@ -87,7 +88,7 @@ Primary trading address Longitude /
 Apply / 
 Excel / 
 Export / 
-Download
+Download**
 
 The sheet named 'Results' on your exported excel file should look like this:
 
