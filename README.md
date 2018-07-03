@@ -102,6 +102,12 @@ Comma Separared Values(.csv) - (not CSV UTF-8) / Save Active Sheet
 
 [![https://gyazo.com/273934822839209c9b467486ca58f64f](https://i.gyazo.com/273934822839209c9b467486ca58f64f.gif)](https://gyazo.com/273934822839209c9b467486ca58f64f)
 
-search for the European Classification of Economic Activities code, or NACE code (Other activities classification/All NACE Rev. 2 codes)
+Following open QGIS and click trough the following sequence:
+
+**Project /
+New /
+Layer /
+Add layer /
+Add Delimited Text Layer /**
 
 ### 6. Mapping FAME data in CARTO
