@@ -78,7 +78,7 @@ Add / Ok / View results > / Add/remove columns
 
 [![https://gyazo.com/cb4d8dd7c62e72773ed2d5b37e101ab9](https://i.gyazo.com/cb4d8dd7c62e72773ed2d5b37e101ab9.gif)](https://gyazo.com/cb4d8dd7c62e72773ed2d5b37e101ab9)
 
-Then, click on sections indicated below to get the latitude and longitude of the primary trading address from the selected activities:
+Then, to obtain the latitude and longitude of the primary trading address from the selected activities click on the following sections:
 
 **Add/remove columns /
 Trading addresses / 
