@@ -102,11 +102,18 @@ Comma Separared Values(.csv) - (not CSV UTF-8) / Save Active Sheet
 
 [![https://gyazo.com/273934822839209c9b467486ca58f64f](https://i.gyazo.com/273934822839209c9b467486ca58f64f.gif)](https://gyazo.com/273934822839209c9b467486ca58f64f)
 
-Next, open QGIS and click trough the following sequence:
-
+Next, open QGIS and click trough the following sequences:
+* To create a new project:
 **Project /
 New /
-Layer /
+
+Note in the lower right corner that the project's default CRS (Coordinate Reference System) would be EPSG:4326, which is equivalent to [WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System), the latest revision of the World Geodesic System established in 1984.
+
+[![Image from Gyazo](https://i.gyazo.com/75cd43d95267496ba382add4e4637ffd.png)](https://gyazo.com/75cd43d95267496ba382add4e4637ffd)
+
+* To import the CSV file information:
+
+**Layer /
 Add layer /
 Add Delimited Text Layer /**
 
@@ -114,7 +121,7 @@ On the pop-up window browse the CSV file. Set the **Encoding** to System and ver
 
 [![Image from Gyazo](https://i.gyazo.com/cf59070c25d7a770a80c327ecda9793b.png)](https://gyazo.com/cf59070c25d7a770a80c327ecda9793b)
 
-Then hit **OK** and a *Coordinate Reference System Selector* window should pop-up. Again, the software by default should have selected **WGS 84 EPSG:4326**, which the standard for online maps (EPSG stands for European Petroleum Survey Group). If not select the CRS from the list and then hit **OK**.
+Then, hit **OK** and a *Coordinate Reference System Selector* window should pop-up. Again, the software by default should have selected **WGS 84 EPSG:4326**, which the standard for online maps. If not select the CRS from the list and then hit **OK**.
 
 [![Image from Gyazo](https://i.gyazo.com/023de44742d333a52c4ef7c2f2a10858.png)](https://gyazo.com/023de44742d333a52c4ef7c2f2a10858)
 
