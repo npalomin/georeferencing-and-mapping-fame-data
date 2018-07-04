@@ -102,12 +102,20 @@ Comma Separared Values(.csv) - (not CSV UTF-8) / Save Active Sheet
 
 [![https://gyazo.com/273934822839209c9b467486ca58f64f](https://i.gyazo.com/273934822839209c9b467486ca58f64f.gif)](https://gyazo.com/273934822839209c9b467486ca58f64f)
 
-Following open QGIS and click trough the following sequence:
+Next, open QGIS and click trough the following sequence:
 
 **Project /
 New /
 Layer /
 Add layer /
 Add Delimited Text Layer /**
+
+On the pop-up window browse the CSV file. Set the **Encoding** to System and verify that the **DMS** box is checked (DMS stands for Degree Minutes Seconds). The software should recognise the CSV file information, however if not, configure the window according to the following image. **X field** is Latitude and **Y field** is Longitude:
+
+[![Image from Gyazo](https://i.gyazo.com/cf59070c25d7a770a80c327ecda9793b.png)](https://gyazo.com/cf59070c25d7a770a80c327ecda9793b)
+
+Then hit **OK** and a *Coordinate Reference System Selector* window should pop-up. Again, the software by default should have selected **WGS 84 EPSG:4326**, which the standard for online maps (EPSG stands for European Petroleum Survey Group). If not select the CRS from the list and then hit **OK**.
+
+[![Image from Gyazo](https://i.gyazo.com/023de44742d333a52c4ef7c2f2a10858.png)](https://gyazo.com/023de44742d333a52c4ef7c2f2a10858)
 
 ### 6. Mapping FAME data in CARTO
