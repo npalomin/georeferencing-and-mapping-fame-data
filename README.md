@@ -62,7 +62,7 @@ In simple terms [georeferencing](https://www.ordnancesurvey.co.uk/support/unders
 
 For the creation of an interactive map we will follow two general stages: 1) Georeferencing and 2) Mapping. For this purpose you will need to have QGIS installed in your computer and an account on CARTO. 
 
-[QGIS](https://en.wikipedia.org/wiki/QGIS) is a free and open-source cross-platform desktop geographic information system (GIS) application that supports viewing, editing, and analysis of geospatial data. To install it navigate to the [QGIS download page](https://qgis.org/en/site/forusers/download.html) an follow the instructions. For more a more detailed set of instructions and troubleshooting you can consult this guide to [installing QGIS](https://programminghistorian.org/en/lessons/qgis-layers).
+[QGIS](https://en.wikipedia.org/wiki/QGIS) is a free and open-source cross-platform desktop geographic information system (GIS) application that supports viewing, editing, and analysis of geospatial data. To install it navigate to the [QGIS download page](https://qgis.org/en/site/forusers/download.html) an follow the instructions. For more a more detailed set of instructions and troubleshooting you can consult this guide to [installing QGIS](https://programminghistorian.org/en/lessons/qgis-layers). The version used in this lesson is QGIS 2.18 Las Palmas.
 
 [CARTO](https://en.wikipedia.org/wiki/CartoDB) is a cloud computing platform that provides GIS and web mapping tools for display in a web browser. CARTO is offered as freemium service, where accounts are free up to a certain time. Current free account options include a [CARTO 30 days trial](https://carto.com/get-started/) and a [student account in partnership with Github](https://carto.com/community/ambassadors/) (this one might take longer to get).
 
@@ -147,11 +147,28 @@ To query all the records click ont the **Open Attribute Table** botton [![Image 
 
 [![Image from Gyazo](https://i.gyazo.com/84c5e09b597252e837d41eb8e12e6a48.png)](https://gyazo.com/84c5e09b597252e837d41eb8e12e6a48)
 
-In order to visually analyse the spatial distribution of the points we need to 'see' all of them. Therefore, we need to spatially 'separate' those points that overlap. For this, we will 'displace' the overlapping points in relation to their current location. This will create a 'distorted' representation of the point's 'real' position but this is the trade-off to be able to visualise all the points which at the end will provide a more accurate spatial analysis.
+In order to visually analyse the spatial distribution of the points we need to 'see' all of them. Therefore, we need to spatially 'separate' those points that overlap. For this, we will 'displace' the overlapping points in relation to their current location. This will create a 'distorted' representation of the point's 'real' position but this is the trade-off to be able to visualise all the points which at the end will provide a more accurate spatial analysis (without any 'hidden' points).
 
-To perform the 'displacement' we need to call the QGIS toolbox:
+Before running the displacement operation it is recommended to perfomr a validity check of the geometries:
+
+**Vector / Geometry Tools / Check validity**
+
+In the pop-up window keep the default values, uncheck the last two boxes and click **Run**:
+
+[![Image from Gyazo](https://i.gyazo.com/62f7b839a6662a140e68a92611974a37.png)](https://gyazo.com/62f7b839a6662a140e68a92611974a37)
+
+After running this process you would have created a new layer 'Valid output'. This will be your new working data.
+
+Next, to perform the point 'displacement' we need to call the QGIS toolbox:
 
 **Processing / Toolbox**
+
+Then, in the search box search for *displacement* and click on the **Point displacement** section:
+
+[![Image from Gyazo](https://i.gyazo.com/e190fc28e2bd1ad0df26aa5dbd350057.png)](https://gyazo.com/e190fc28e2bd1ad0df26aa5dbd350057)
+
+Select the input layer 'Valid output', keep the dafault values and click **Run**:
+
 
 
 ### 6. Mapping FAME data in CARTO
