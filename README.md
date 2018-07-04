@@ -238,7 +238,7 @@ Finally, we can add a 'mouse over' functionality to allow the map user to query 
 
 [![Image from Gyazo](https://i.gyazo.com/404ad2f9d5bf2d90a59c8f010377baf6.gif)](https://gyazo.com/404ad2f9d5bf2d90a59c8f010377baf6)
 
-Now you should be able to publish your map. Click <- Back and then click the **PUBLISH** botton. On the next window click the **PUBLISH** botton again and then **COPY** to get the link to your [interactive map](https://npalomin.carto.com/builder/bfbace01-db85-432f-831f-f716dd7099a4/embed). Open a new browser window and paste. You are now ready to share your interactive map. You can keep editing your map (or generate new versions by duplicating it). To update the edits you'll have to 're-publish' the map **PUBLISH / UPDATE**. Note that the zoom in/out navigational tools also operate as a filtering tools that updated the widget.
+Now you should be able to publish your map. Click <- Back and then click the **PUBLISH** botton. On the next window click the **PUBLISH** botton again and then **COPY** to get the link to your [interactive map](https://npalomin.carto.com/builder/bfbace01-db85-432f-831f-f716dd7099a4/embed). Open a new browser window and paste. You are now ready to share your interactive map. You can keep editing your map (or generate new versions by duplicating it). To update the edits you'll have to 're-publish' the map **PUBLISH / UPDATE**. Note that the zoom in/out navigational tools also operate as a filtering tools which update the widget information.
 
 [![Image from Gyazo](https://i.gyazo.com/702b474dca07e0eb938d22361dc3508b.gif)](https://gyazo.com/702b474dca07e0eb938d22361dc3508b)
 
