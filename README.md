@@ -225,7 +225,7 @@ Next, change **STROKE SIZE** from '1' to '0'. These **STYLE** transformations we
 
 All these transformations can be further tweaked according to the 'cartographer's' preference. For advice on this you can check the making maps recommendations checklist by John Krygier and Denis Wood ['Making Maps Is Hard'](https://www.researchgate.net/profile/John_Krygier/publication/307640488_Making_Maps_A_Visual_Guide_to_Map_Design_for_GIS_3rd_Edition/links/57ce947608ae582e06934004/Making-Maps-A-Visual-Guide-to-Map-Design-for-GIS-3rd-Edition.pdf?origin=publication_detail)(p. 24-25).
 
-The resultant map doesn't meet the purpose of identifying spatial concentration of activites per code. This is because the datast we are using contains 351 categories wich are represented as 10 individual categories plus 1 'OTHERS' that groups the remaining 341. This can be improved by categorizing the values in upto '11' categories. The best way to do this process is to go back to the excel file and add a column with this information for every row and then follow the same workflow.
+The resultant map doesn't meet the purpose of identifying spatial concentration of activites per code. This is because the datast we are using contains 351 categories wich are represented as 10 individual categories plus 1 'OTHERS' category that groups the remaining 341. This can be improved by categorizing the records in upto '11' categories. The best way to do this process is to go back to the excel file and add a column with this information for every row and then follow the same workflow.
 
 [![Image from Gyazo](https://i.gyazo.com/e48c89f91de2513d495bc6f759c8da58.png)](https://gyazo.com/e48c89f91de2513d495bc6f759c8da58)
 
