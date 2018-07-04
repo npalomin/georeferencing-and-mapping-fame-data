@@ -141,12 +141,17 @@ To query the information associated with each point click on the **Identify Feat
 
 [![Image from Gyazo](https://i.gyazo.com/c6a96d1d1ebfa3442fea77c71334f837.png)](https://gyazo.com/c6a96d1d1ebfa3442fea77c71334f837)
 
-Note that one point might have more than one set of information. This means that some activities share the same Primary trading address Latiturde and Longitude.
+Note that one point might have more than one set of information. This means that some activities share the same 'Primary trading address Latitude and Longitude', so the points overlap and the identify tool shows the information for all the points.
 
 To query all the records click ont the **Open Attribute Table** botton [![Image from Gyazo](https://i.gyazo.com/a084bc32fba7a902727a6ffdeead5b6b.png)](https://gyazo.com/a084bc32fba7a902727a6ffdeead5b6b). A window will pop-up showing a spreadsheet with all the records (including those which Latitude-Longitude was blank):
 
 [![Image from Gyazo](https://i.gyazo.com/84c5e09b597252e837d41eb8e12e6a48.png)](https://gyazo.com/84c5e09b597252e837d41eb8e12e6a48)
 
+In order to visually analyse the spatial distribution of the points we need to 'see' all of them. Therefore, we need to spatially 'separate' those points that overlap. For this, we will 'displace' the overlapping points in relation to their current location. This will create a 'distorted' representation of the point's 'real' position but this is the trade-off to be able to visualise all the points which at the end will provide a more accurate spatial analysis.
+
+To perform the 'displacement' we need to call the QGIS toolbox:
+
+**Processing / Toolbox**
 
 
 ### 6. Mapping FAME data in CARTO
