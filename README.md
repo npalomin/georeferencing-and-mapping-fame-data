@@ -157,7 +157,7 @@ In the pop-up window keep the default values, uncheck the last two boxes and cli
 
 [![Image from Gyazo](https://i.gyazo.com/62f7b839a6662a140e68a92611974a37.png)](https://gyazo.com/62f7b839a6662a140e68a92611974a37)
 
-After running this process you would have created a new layer 'Valid output'. This will be your new working data.
+After running this process you will have created a new layer 'Valid output'. This will be your new working data.
 
 Next, to perform the point 'displacement' we need to call the QGIS toolbox:
 
@@ -167,7 +167,28 @@ Then, in the search box search for *displacement* and click on the **Point displ
 
 [![Image from Gyazo](https://i.gyazo.com/e190fc28e2bd1ad0df26aa5dbd350057.png)](https://gyazo.com/e190fc28e2bd1ad0df26aa5dbd350057)
 
-Select the input layer 'Valid output', keep the dafault values and click **Run**:
+In the pop-up window, for the **Input layer** selector choose the 'Valid output' layer, keep the dafault values and click **Run**. As a result, you will have created a new layer 'Displaced'. This will be your new working data. Note how the points on the 'Displaced' layer were organized around the 'Valid output' layer through this operation that moved the overlaping points a small distance from their original position and organized them concentrically.
+
+[![Image from Gyazo](https://i.gyazo.com/aaed53dd41f7b7eab3683f4c7eeb0fe2.png)](https://gyazo.com/aaed53dd41f7b7eab3683f4c7eeb0fe2)
+
+To perform a geographical verification of the data we can add a base or 'background' map. To do this we need to install a plugin:
+
+**Plugins / Manage and Install Plugins...**
+
+Search for 'openlayers', select 'OpenLayers Plugin' and click **Install plugin**. Then you should be able to add a base map layer:
+
+**Web / OpenLayers Plugin / OpenStreeMap / OpenStreetMap** (or the map of your preference)
+
+The base map will appear as a new layer on the **Layers Panel**. Also note in the lower right corner that the CRS has changed to EPSG:3857 (OTF). OTF stands for 'on the fly', which is a method that QGIS uses to transform and combine different CRS. EPSG:3857 is equivalent to WGS 84 / Pseudo Mercator.
+To be able to 'see' your data on top of the base map click on the 'OpenStreetMap' layer (or whicheve you chose) and drag it to the bottom of the **Layers Panel** list
+
+[![Image from Gyazo](https://i.gyazo.com/7b3c35433b3d2877c9d8892c420d5dcb.gif)](https://gyazo.com/7b3c35433b3d2877c9d8892c420d5dcb)
+
+Now, you should be able to see the 'Displaced' layer on top of the base map. Because of the different CRS of the layers, note how the 'Displaced' layer looks skewed. The explanation of this was covered with more detail on section **3. Introduction**. Similarly to what happened with the 'displacement' process this new type of representation should not affect the overall visual analysis of the data.
+
+
+
+
 
 
 
