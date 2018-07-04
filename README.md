@@ -121,7 +121,7 @@ Note in the lower right corner that the project's default CRS (Coordinate Refere
 Add layer /
 Add Delimited Text Layer /**
 
-On the pop-up window browse the CSV file. Set the **Encoding** to System and verify that the **DMS** box is checked (DMS stands for Degree Minutes Seconds). The software should recognise the CSV file information, however if not, configure the window according to the following image. **X field** is Latitude and **Y field** is Longitude:
+On the pop-up window browse the CSV file. Set the **Encoding** to System and verify that the **DMS** box is checked ('DMS' stands for Degree Minutes Seconds). The software should recognise the CSV file information, however if not, configure the window according to the following image. **X field** is Latitude and **Y field** is Longitude:
 
 [![Image from Gyazo](https://i.gyazo.com/cf59070c25d7a770a80c327ecda9793b.png)](https://gyazo.com/cf59070c25d7a770a80c327ecda9793b)
 
@@ -179,7 +179,7 @@ Search for 'openlayers', select 'OpenLayers Plugin' and click **Install plugin**
 
 **Web / OpenLayers Plugin / OpenStreeMap / OpenStreetMap** (or the map of your preference)
 
-The base map will appear as a new layer on the **Layers Panel**. Also note in the lower right corner that the CRS has changed to EPSG:3857 (OTF). OTF stands for 'on the fly', which is a method that QGIS uses to transform and combine different CRS. EPSG:3857 is equivalent to WGS 84 / Pseudo Mercator.
+The base map will appear as a new layer on the **Layers Panel**. Also note in the lower right corner that the CRS has changed to EPSG:3857 (OTF). 'OTF' stands for 'on the fly', which is a method that QGIS uses to transform and combine different CRS. EPSG:3857 is equivalent to WGS 84 / Pseudo Mercator a commonly used CRS for webmaps.
 To be able to 'see' your data on top of the base map click on the 'OpenStreetMap' layer (or whicheve you chose) and drag it to the bottom of the **Layers Panel** list
 
 [![Image from Gyazo](https://i.gyazo.com/7b3c35433b3d2877c9d8892c420d5dcb.gif)](https://gyazo.com/7b3c35433b3d2877c9d8892c420d5dcb)
@@ -212,18 +212,36 @@ Similar to QGIS, the information is organized in layers. Before customizing your
 
 Go <- Back to the main screen (blue letter on the top left)
 Click on your data layer to edit its **STYLE** (this will have the same name of your uploaded GeoJSON file)
-The panel on the left will change. Keep *1. Aggregation* as default. On *2. Style* change the **POINT SIZE** value to 10. Then, on **POINT COLOR** change from 'Solid' to 'By Value' and choose a column of categoric data (e.g.: primary_uk_sic_2007_code). Click on '5 buckets' and select '7 buckets', then on 'Quantiles' and select 'Category'. Select the color scheme of your preference (idealy one that contrasts with your base map). Select any color number and change the 'transparency' value from '1' to '0.5'. Click 'out' of the pop-up window.
+The panel on the left will change. Keep *1. Aggregation* as default. On *2. Style* change the **POINT SIZE** value to 10. Then, on **POINT COLOR** change from 'Solid' to 'By Value' and choose a column of categoric data (e.g.: primary_uk_sic_2007_code). Click on 'Quantiles' and select 'Category'. Select the color scheme of your preference (ideally one that contrasts with your base map). Select any color number and change the 'transparency' value from '1' to '0.5'. Click 'out' of the pop-up window.
 
 [![Image from Gyazo](https://i.gyazo.com/f784073ea60b41d51611ca811c82f726.gif)](https://gyazo.com/f784073ea60b41d51611ca811c82f726)
 
 Next, change **STROKE SIZE** from '1' to '0'. These **STYLE** transformations were done according to the following principles:
 * We changed the **POINT SIZE** to have a better view of the locations when we zoom in.
-* We assigned color according to categories to differentiate the categorical values of the NACE codes. Note that the number of buckets is limited to '7' because that's the limit upto which humans can 'read' color variations.
-* We changes from 'Quantiles' to 'Category' because although the codes are number these are categorical values.
+* We assigned color 'By value' to differentiate the categorical values of the NACE codes. 
+* We changed from 'Quantiles' to 'Category' because although the codes are a number data type these are categorical values. Note that the number of buckets is limited to '11' because that's the limit upto which humans can 'read' color variations.
 * We added transparency to be able to see points overlap (and concentration) when we zoom out.
-* We set the **STOKE SIZE** to '0' to have a better view of these overlaps
+* We set the **STOKE SIZE** to '0' to have a better view of these overlaps.
 
 All these transformations can be further tweaked according to the 'cartographer's' preference. For advice on this you can check the making maps recommendations checklist by John Krygier and Denis Wood ([Making Maps Is Hard](file:///Users/nicolaspalominos/Downloads/making-maps-3rd-ed-low-rez_p_1-31.pdf)(p. 24-25).
+
+The resultant map doesn't meet the purpose of identifying spatial concentration of activites per code. This is because the datast we are using contains 351 categories wich are represented as 10 individual categories plus 1 'OTHERS' that groups the remaining 341. This can be improved by categorizing the values in upto '11' categories. The best way to do this process is to go back to the excel file and add a column with this information for every row and then follow the same workflow.
+
+[![Image from Gyazo](https://i.gyazo.com/e48c89f91de2513d495bc6f759c8da58.png)](https://gyazo.com/e48c89f91de2513d495bc6f759c8da58)
+
+To complete our map we could add a legend and complementary navigational tools. To add a legend select the **LEGEND** tab and then the **Category legend** icon. Now, to help the map users explore the data we can add a data widget (a small web application with filtering capacities). Go to the **DATA** tab and select the field on which we will perform the data exploration (in this case we select the same field that we used to categorize the points (e.g.: primary_uk_sic_2007_code).
+Then we need to configure the widget. Click on the three stacked blue dots on the upper right corner 'More options' and select 'Edit'. A new left panel should appear. On *1. Type* select the **CATEGORY** icon and click <- Back. At this point in 'editing mode' the widget we added will allow to filter the data to obtain a more clear view of the activities spatial distribution. The widget shows the 'COUNT' of each code. Click on any code to apply the respective filter.
+
+[![Image from Gyazo](https://i.gyazo.com/7323cb9b14eaf16e170ad7c50da2d7e9.png)](https://gyazo.com/7323cb9b14eaf16e170ad7c50da2d7e9)
+
+Finally, we can add a 'mouse over' functionality to allow the map user to query the 'attributes' (column values) of each point. Click on your data layer, then on the **POP-UP** tab and select **HOVER NONE**. In *1. Style* select 'Pop-Up Light' icon, then in *2. Show items* click on the fields you want to show in the pop-up window (e.g.: company_name). On the right hand box you can edit the text. 
+
+[![Image from Gyazo](https://i.gyazo.com/404ad2f9d5bf2d90a59c8f010377baf6.gif)](https://gyazo.com/404ad2f9d5bf2d90a59c8f010377baf6)
+
+Now you should be able to publish your map. Click <- Back and then click the **PUBLISH** botton. On the next window click the **PUBLISH** botton again and then **COPY** to get the link to your [interactive map](https://npalomin.carto.com/builder/bfbace01-db85-432f-831f-f716dd7099a4/embed). Open a new browser window and paste. You are now ready to share your interactive map. You can keep editing your map (or generate new versions by duplicating it). To update the edits you'll have to 're-publish' the map **PUBLISH / UPDATE**. Note that the zoom in/out navigational tools also operate as a filtering tools that updated the widget.
+
+[![Image from Gyazo](https://i.gyazo.com/702b474dca07e0eb938d22361dc3508b.gif)](https://gyazo.com/702b474dca07e0eb938d22361dc3508b)
+
 
 
 
