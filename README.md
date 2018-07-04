@@ -223,7 +223,7 @@ Next, change **STROKE SIZE** from '1' to '0'. These **STYLE** transformations we
 * We added transparency to be able to see points overlap (and concentration) when we zoom out.
 * We set the **STOKE SIZE** to '0' to have a better view of these overlaps.
 
-All these transformations can be further tweaked according to the 'cartographer's' preference. For advice on this you can check the making maps recommendations checklist by John Krygier and Denis Wood ([Making Maps Is Hard](file:///Users/nicolaspalominos/Downloads/making-maps-3rd-ed-low-rez_p_1-31.pdf)(p. 24-25).
+All these transformations can be further tweaked according to the 'cartographer's' preference. For advice on this you can check the making maps recommendations checklist by John Krygier and Denis Wood ['Making Maps Is Hard'](file:///Users/nicolaspalominos/Downloads/making-maps-3rd-ed-low-rez_p_1-31.pdf)(p. 24-25).
 
 The resultant map doesn't meet the purpose of identifying spatial concentration of activites per code. This is because the datast we are using contains 351 categories wich are represented as 10 individual categories plus 1 'OTHERS' that groups the remaining 341. This can be improved by categorizing the values in upto '11' categories. The best way to do this process is to go back to the excel file and add a column with this information for every row and then follow the same workflow.
 
