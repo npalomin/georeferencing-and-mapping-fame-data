@@ -125,7 +125,7 @@ On the pop-up window browse the CSV file. Set the **Encoding** to System and ver
 
 [![Image from Gyazo](https://i.gyazo.com/cf59070c25d7a770a80c327ecda9793b.png)](https://gyazo.com/cf59070c25d7a770a80c327ecda9793b)
 
-Then, hit **OK** and a *Coordinate Reference System Selector* window should pop-up. Again, the software by default should have selected **WGS 84 EPSG:4326**, which is the standard for online maps. If not, select the CRS from the list and then hit **OK**.
+Then, hit **OK** and a *Coordinate Reference System Selector* window should pop-up. Again, the software by default should have selected **WGS 84 EPSG:4326**, which is a commonly used standard for maps. If not, select the CRS from the list and then hit **OK**.
 
 [![Image from Gyazo](https://i.gyazo.com/023de44742d333a52c4ef7c2f2a10858.png)](https://gyazo.com/023de44742d333a52c4ef7c2f2a10858)
 
@@ -186,10 +186,13 @@ To be able to 'see' your data on top of the base map click on the 'OpenStreetMap
 
 Now, you should be able to see the 'Displaced' layer on top of the base map. Because of the different CRS of the layers, note how the 'Displaced' layer looks skewed. The explanation of this was covered with more detail on section **3. Introduction**. Similarly to what happened with the 'displacement' process this new type of representation should not affect the overall visual analysis of the data.
 
+To finish the operations on QGIS, we need to export the 'Displaced' layer as a GeoJSON file:
 
+** (right) click on 'Displaced' layer (on the Layers Panel) / Save as...
 
+Choose the GeoJSON 'Format' and click **Browse** to define the location and name of the file you are saving. Keep the rest of the fields as default. Before moving into CARTO you can save your QGIS project:
 
-
+**Project / Save As... / Save
 
 
 ### 6. Mapping FAME data in CARTO
