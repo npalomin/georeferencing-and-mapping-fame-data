@@ -188,7 +188,7 @@ Now, you should be able to see the 'Displaced' layer on top of the base map. Bec
 
 To finish the operations on QGIS, we need to export the 'Displaced' layer as a GeoJSON file:
 
-** (right) click on 'Displaced' layer (on the Layers Panel) / Save as...
+**(right) click on 'Displaced' layer (on the Layers Panel) / Save as...**
 
 Choose the GeoJSON 'Format' and click **Browse** to define the location and name of the file you are saving. Keep the rest of the fields as default. Before moving into CARTO you can save your QGIS project:
 
@@ -196,3 +196,38 @@ Choose the GeoJSON 'Format' and click **Browse** to define the location and name
 
 
 ### 6. Mapping FAME data in CARTO
+
+The first step is to open a web browser and log in to your CARTO account. You will see your dashboard (probably empty). On the header change from 'Your maps' to 'Your datasets'
+
+[![Image from Gyazo](https://i.gyazo.com/f03aa2cca77f7021893c0e668ba33809.gif)](https://gyazo.com/f03aa2cca77f7021893c0e668ba33809)
+
+Then, click on the **NEW DATASET** botton and **BROWSE** for the GeoJSON file on your computer. Click on **CONNECT DATASET**.
+You will have uploaded your file and you will see a spreadsheet on the browser window. Click on **CREATE MAP** to generate a basic interactive map that you will customize. 
+
+[![Image from Gyazo](https://i.gyazo.com/18d415a818f0a96302bbe06957e85897.png)](https://gyazo.com/18d415a818f0a96302bbe06957e85897)
+
+Similar to QGIS, the information is organized in layers. Before customizing your information it is recommended to select a neutral 'Base map' that doesn't 'compete' with the information you want to communicate. Click on the **BASEMAP** button and select an icon (e.g.: POSITRON (LABELS BELOW)).
+
+[![Image from Gyazo](https://i.gyazo.com/2158dce6ca0d1f32e8b1249c5d338114.gif)](https://gyazo.com/2158dce6ca0d1f32e8b1249c5d338114)
+
+Go <- Back to the main screen (blue letter on the top left)
+Click on your data layer to edit its **STYLE** (this will have the same name of your uploaded GeoJSON file)
+The panel on the left will change. Keep *1. Aggregation* as default. On *2. Style* change the **POINT SIZE** value to 10. Then, on **POINT COLOR** change from 'Solid' to 'By Value' and choose a column of categoric data (e.g.: primary_uk_sic_2007_code). Click on '5 buckets' and select '7 buckets', then on 'Quantiles' and select 'Category'. Select the color scheme of your preference (idealy one that contrasts with your base map). Select any color number and change the 'transparency' value from '1' to '0.5'. Click 'out' of the pop-up window.
+
+[![Image from Gyazo](https://i.gyazo.com/f784073ea60b41d51611ca811c82f726.gif)](https://gyazo.com/f784073ea60b41d51611ca811c82f726)
+
+Next, change **STROKE SIZE** from '1' to '0'. These **STYLE** transformations were done according to the following principles:
+* We changed the **POINT SIZE** to have a better view of the locations when we zoom in.
+* We assigned color according to categories to differentiate the categorical values of the NACE codes. Note that the number of buckets is limited to '7' because that's the limit upto which humans can 'read' color variations.
+* We changes from 'Quantiles' to 'Category' because although the codes are number these are categorical values.
+* We added transparency to be able to see points overlap (and concentration) when we zoom out.
+* We set the **STOKE SIZE** to '0' to have a better view of these overlaps
+
+All these transformations can be further tweaked according to the 'cartographer's' preference. For advice on this you can check the making maps recommendations checklist by John Krygier and Denis Wood ([Making Maps Is Hard](file:///Users/nicolaspalominos/Downloads/making-maps-3rd-ed-low-rez_p_1-31.pdf)(p. 24-25).
+
+
+
+
+
+
+
