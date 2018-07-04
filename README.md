@@ -102,14 +102,18 @@ Comma Separared Values(.csv) - (not CSV UTF-8) / Save Active Sheet
 
 [![https://gyazo.com/273934822839209c9b467486ca58f64f](https://i.gyazo.com/273934822839209c9b467486ca58f64f.gif)](https://gyazo.com/273934822839209c9b467486ca58f64f)
 
+---
+
 Next, open QGIS and click trough the following sequences:
+
 * To create a new project:
+
 **Project /
-New /
+New /**
 
 Note in the lower right corner that the project's default CRS (Coordinate Reference System) would be EPSG:4326, which is equivalent to [WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System), the latest revision of the World Geodesic System established in 1984.
 
-[![Image from Gyazo](https://i.gyazo.com/75cd43d95267496ba382add4e4637ffd.png)](https://gyazo.com/75cd43d95267496ba382add4e4637ffd)
+[![Image from Gyazo](https://i.gyazo.com/c901dd020c6041215b80629538185bf4.png)](https://gyazo.com/c901dd020c6041215b80629538185bf4)
 
 * To import the CSV file information:
 
