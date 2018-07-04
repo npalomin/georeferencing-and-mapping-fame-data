@@ -141,9 +141,9 @@ To query the information associated with each point click on the **Identify Feat
 
 [![Image from Gyazo](https://i.gyazo.com/c6a96d1d1ebfa3442fea77c71334f837.png)](https://gyazo.com/c6a96d1d1ebfa3442fea77c71334f837)
 
-Note that one point might have more than one set of information. This means that some activities share the same 'Primary trading address Latitude and Longitude', so the points overlap and the identify tool shows the information for all the points.
+Note that one point might have more than one set of information. This means that some activities share the same 'Primary trading address Latitude and Longitude', so given that the points 'spatially' overlap the identify tool shows the information for all the overlapping points.
 
-To query all the records click ont the **Open Attribute Table** botton [![Image from Gyazo](https://i.gyazo.com/a084bc32fba7a902727a6ffdeead5b6b.png)](https://gyazo.com/a084bc32fba7a902727a6ffdeead5b6b). A window will pop-up showing a spreadsheet with all the records (including those which Latitude-Longitude was blank):
+To explore all the records click ont the **Open Attribute Table** botton [![Image from Gyazo](https://i.gyazo.com/a084bc32fba7a902727a6ffdeead5b6b.png)](https://gyazo.com/a084bc32fba7a902727a6ffdeead5b6b). A window will pop-up showing a spreadsheet with all the records (including those which Latitude-Longitude was blank):
 
 [![Image from Gyazo](https://i.gyazo.com/84c5e09b597252e837d41eb8e12e6a48.png)](https://gyazo.com/84c5e09b597252e837d41eb8e12e6a48)
 
