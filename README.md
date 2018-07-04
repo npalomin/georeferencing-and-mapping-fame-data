@@ -68,7 +68,7 @@ For the creation of an interactive map we will follow two general stages: 1) Geo
 
 ### 5. Georeferencing FAME data in QGIS
 
-The first step before going into QGIS is getting the data from the FAME database (Financial Management Made Easy) published by Bureau van Dijk. The access to the FAME database you will need to log in to the [UCL library database](http://www.ucl.ac.uk/library/electronic-resources/databases) resources with your student credentials. After loging in to the FAME website the first step is to search by geographic area and postcode (Geographic/Postcode). We need to specify a Postcode range indicating the 'from' and 'to' (Outward code should be enough to perform the query).
+The first step before going into QGIS is getting the data from the FAME database (Financial Management Made Easy) published by Bureau van Dijk. The access to the FAME database you will need to log in to the [UCL library database](http://www.ucl.ac.uk/library/electronic-resources/databases) resources with your student credentials. After loging in to the FAME website the first step is to search by geographic area and postcode (**Geographic / Postcode**). To get a reference of postcode geographic coverage vist the [Office for National Statistics postcode directory](https://onsdigital.github.io/postcode-lookup/) lookup. We need to specify a Postcode range indicating the 'from' and 'to' (Outward code should be enough to perform the query).
 
 [![https://gyazo.com/5944f1918b4eb35648448d3dcee5a10d](https://i.gyazo.com/5944f1918b4eb35648448d3dcee5a10d.png)](https://gyazo.com/5944f1918b4eb35648448d3dcee5a10d)
 
@@ -94,7 +94,7 @@ The sheet named 'Results' on your exported excel file should look like this:
 
 [![https://gyazo.com/92f3cdf905dd68b128dfee6f2e0a4228](https://i.gyazo.com/92f3cdf905dd68b128dfee6f2e0a4228.png)](https://gyazo.com/92f3cdf905dd68b128dfee6f2e0a4228)
 
-Note that some activities don't have the information. Also, others are located in the same geographic position (equal coordinates) which might imply that these are in the same building.
+Note that some activities don't have the Latitude-Longitude information. Also, others are located in the same geographic position (equal coordinates) which might imply that these are in the same building.
 
 Next step is to save the 'Results' sheet as a CSV file.
 
@@ -125,8 +125,28 @@ On the pop-up window browse the CSV file. Set the **Encoding** to System and ver
 
 [![Image from Gyazo](https://i.gyazo.com/cf59070c25d7a770a80c327ecda9793b.png)](https://gyazo.com/cf59070c25d7a770a80c327ecda9793b)
 
-Then, hit **OK** and a *Coordinate Reference System Selector* window should pop-up. Again, the software by default should have selected **WGS 84 EPSG:4326**, which the standard for online maps. If not select the CRS from the list and then hit **OK**.
+Then, hit **OK** and a *Coordinate Reference System Selector* window should pop-up. Again, the software by default should have selected **WGS 84 EPSG:4326**, which is the standard for online maps. If not, select the CRS from the list and then hit **OK**.
 
 [![Image from Gyazo](https://i.gyazo.com/023de44742d333a52c4ef7c2f2a10858.png)](https://gyazo.com/023de44742d333a52c4ef7c2f2a10858)
+
+Now, on the main window you should be able to see a set of points that represent the geographic position of the activities queried. On the left hand side, on the **Layers Panel**, you will see that your data was added as a layer:
+
+[![Image from Gyazo](https://i.gyazo.com/14187b46f2702d61616c4c726322c5b0.png)](https://gyazo.com/14187b46f2702d61616c4c726322c5b0)
+
+For a basic exploration of your map use the navigational tools on the toolbar. Also, the wheel on your mouse will behave in a similar way to navigating a Google Map.
+
+[![Image from Gyazo](https://i.gyazo.com/0598ca24ee5ca2b7f6e4180dbc01ba13.png)](https://gyazo.com/0598ca24ee5ca2b7f6e4180dbc01ba13)
+
+To query the information associated with each point click on the **Identify Features** botton [![Image from Gyazo](https://i.gyazo.com/f848640cc3ba1294e419851d186c44cc.png)](https://gyazo.com/f848640cc3ba1294e419851d186c44cc). A window will pop-up showing the 'Attributes' (columns) of each point:
+
+[![Image from Gyazo](https://i.gyazo.com/c6a96d1d1ebfa3442fea77c71334f837.png)](https://gyazo.com/c6a96d1d1ebfa3442fea77c71334f837)
+
+Note that one point might have more than one set of information. This means that some activities share the same Primary trading address Latiturde and Longitude.
+
+To query all the records click ont the **Open Attribute Table** botton [![Image from Gyazo](https://i.gyazo.com/a084bc32fba7a902727a6ffdeead5b6b.png)](https://gyazo.com/a084bc32fba7a902727a6ffdeead5b6b). A window will pop-up showing a spreadsheet with all the records (including those which Latitude-Longitude was blank):
+
+[![Image from Gyazo](https://i.gyazo.com/84c5e09b597252e837d41eb8e12e6a48.png)](https://gyazo.com/84c5e09b597252e837d41eb8e12e6a48)
+
+
 
 ### 6. Mapping FAME data in CARTO
