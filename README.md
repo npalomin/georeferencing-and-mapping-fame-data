@@ -57,9 +57,9 @@ With the ogoing advancements of web digital technologies the term neogeography h
 * is about sharing location information with friends and visitors, helping shape context, and conveying understanding through knowledge of place.
 * is fun.
 
-However, despite the opportunities and new alternatives to understand the environment, it also  poses challenges and criticisms. Some critics have labelled maps produced by neogeographers as 'cheese burger' maps (in reference to low quality fast food).
+However, despite the opportunities and new alternatives to understand the environment, neogeography also  poses challenges and criticisms. Some critics have labelled maps produced by neogeographers as 'cheese burger' maps (in reference to low quality fast food).
 
-While there are specific disciplines and fields that focus on the scientific measurement, analysis and representation of the earth (Geodesy, Cartography, Geography, etc.), it worth indicating that throughout this lesson some of these subjects will be covered in general terms.
+While there are specific disciplines and fields that focus on the scientific measurement, analysis and representation of the earth (Geodesy, Cartography, Geography, etc.), it worth indicating that throughout this lesson some of these subjects will be only covered in general terms.
 
 **Mapping**
 
