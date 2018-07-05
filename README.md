@@ -43,6 +43,7 @@ By the end of this lesson you would be able to:
 
 The lesson is organised in four sections. The first section is an introduction to basic concepts of cartography and mapping. The following section describes the resources needed to create an interactive map. The third section will focus on data manipulation in the QGIS environment. Finally, the last section refers to creating an interactive map on the CARTO platform.
 
+[![Image from Gyazo](https://i.gyazo.com/da18abb615c009854c89c663aed910fe.png)](https://gyazo.com/da18abb615c009854c89c663aed910fe)
 
 ---
 
