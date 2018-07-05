@@ -95,7 +95,7 @@ The first step before going into QGIS is getting the data from the FAME database
 
 To get a reference of postcode geographic coverage vist the [Office for National Statistics postcode directory](https://onsdigital.github.io/postcode-lookup/) lookup. 
 
-On the FAME window we need to specify a Postcode range indicating the 'from' and 'to' (Outward code should be enough to perform the query).
+On the FAME window we need to specify a Postcode range indicating 'From' and 'To' (Outward code should be enough to perform the query).
 
 [![https://gyazo.com/5944f1918b4eb35648448d3dcee5a10d](https://i.gyazo.com/5944f1918b4eb35648448d3dcee5a10d.png)](https://gyazo.com/5944f1918b4eb35648448d3dcee5a10d)
 
