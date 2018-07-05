@@ -97,7 +97,7 @@ The first step before going into QGIS is getting the data from the FAME database
 
 After indicating the postcode range you should be able to perform the query. 
 
-**Add / Ok / View results > / Add/remove columns**
+**Add / OK / View results > / Add/remove columns**
 
 [![https://gyazo.com/cb4d8dd7c62e72773ed2d5b37e101ab9](https://i.gyazo.com/cb4d8dd7c62e72773ed2d5b37e101ab9.gif)](https://gyazo.com/cb4d8dd7c62e72773ed2d5b37e101ab9)
 
@@ -119,7 +119,7 @@ The sheet named 'Results' on your exported excel file should look like this:
 
 [![https://gyazo.com/92f3cdf905dd68b128dfee6f2e0a4228](https://i.gyazo.com/92f3cdf905dd68b128dfee6f2e0a4228.png)](https://gyazo.com/92f3cdf905dd68b128dfee6f2e0a4228)
 
-Note that some activities don't have the Latitude-Longitude information. Also, others are located in the same geographic position (equal coordinates) which might imply that these are in the same building.
+Note that some activities don't have the Latitude-Longitude information. Also, others are located in the same geographic position (equal coordinates) which might imply that these are located in the same building.
 
 ---
 
