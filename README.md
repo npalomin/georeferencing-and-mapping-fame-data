@@ -42,7 +42,16 @@ The lesson is organised in four sections. The first section is an introduction t
 
 ### 3. Introduction
 
-Disclaimer: 
+**Neogeography**
+
+With the ogoing advancements of web digital technologies the term neogeography has emerged. This poses challenges, opportunities and criticisms that have labelled maps produced by neogeographers as 'cheese burger' maps (in reference to loq quality fast food).
+In short according to [Turner quoted by Haklay, Singleton and Parker](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.456.5267&rep=rep1&type=pdf) (p.10) neogeography:
+* means ‘new geography’ and consists of a set of techniques and tools that fall outside the realm of traditional GIS, Geographic Information Systems.
+* is about people using and creating their own maps, on their own terms and by combining elements of an existing toolset.
+* is about sharing location information with friends and visitors, helping shape context, and conveying understanding through knowledge of place.
+* is fun.
+
+While the disciplines and fields that focus on scientific measurement, analysis and representation of the earth (Geodesy, Cartography, Geography, etc.), it worth indicating that throughout this lesson some subjects will be refered in general terms.
 
 **Mapping**
 
