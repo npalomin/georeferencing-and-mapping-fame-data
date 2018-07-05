@@ -249,7 +249,7 @@ The first step is to open a web browser and log in to your CARTO account. You wi
 ---
 
 Then, click on the **NEW DATASET** botton and **BROWSE** for the GeoJSON file on your computer. Click on **CONNECT DATASET**.
-You will have uploaded your file and you will see a spreadsheet on the browser window. Click on **CREATE MAP** to generate a basic interactive map that you will customize. 
+You will have uploaded your file and you will see a spreadsheet of your data on the browser window. Click on **CREATE MAP** to generate a basic interactive map that you will later customize. 
 
 [![Image from Gyazo](https://i.gyazo.com/18d415a818f0a96302bbe06957e85897.png)](https://gyazo.com/18d415a818f0a96302bbe06957e85897)
 
