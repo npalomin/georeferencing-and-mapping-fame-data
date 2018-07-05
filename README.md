@@ -305,7 +305,9 @@ Now you should be able to publish your map. Click <- Back and then click the **P
 
 [![Image from Gyazo](https://i.gyazo.com/702b474dca07e0eb938d22361dc3508b.gif)](https://gyazo.com/702b474dca07e0eb938d22361dc3508b)
 
+The information on the interactive map can be 'separated' by layers applying filters and then taking screenshots of the map. The following image shows a comparison of the 4 most frequent of activities.
 
+[![Image from Gyazo](https://i.gyazo.com/8b896e03482f792cf846f2b2410e955e.png)](https://gyazo.com/8b896e03482f792cf846f2b2410e955e)
 
 
 
