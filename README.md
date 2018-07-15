@@ -191,7 +191,7 @@ To explore all the records click ont the **Open Attribute Table** botton [![Imag
 
 In order to visually analyse the spatial distribution of the points we need to 'see' all of them. Therefore, we need to spatially 'separate' those points that overlap. For this, we will 'displace' the overlapping points in relation to their current location. This will create a 'distorted' representation of the point's 'real' position but this is the trade-off to be able to visualise all the points which at the end will provide a more accurate spatial analysis (without any 'hidden' points).
 
-Before running the displacement operation it is recommended to perfomr a validity check of the geometries:
+Before running the displacement operation it is recommended to perfom a validity check of the geometries:
 
 **Vector / Geometry Tools / Check validity**
 
