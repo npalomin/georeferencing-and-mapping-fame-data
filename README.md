@@ -315,4 +315,4 @@ Alternatively, a more diagramatic method of representation like the Cartogram ca
 
 Then, you can tweak the other STYEL variables to create the most appropiate visualisation (e.g.: Grid size, Transparency, Base Map)
 
-[![Image from Gyazo](https://i.gyazo.com/c8bc7fa77be3d3b5f71464a72f605b92.png)](https://gyazo.com/c8bc7fa77be3d3b5f71464a72f605b92)
+[![Image from Gyazo](https://i.gyazo.com/23e6f712dc167f95fc3fcc6f0b6c9dea.png)](https://gyazo.com/23e6f712dc167f95fc3fcc6f0b6c9dea)
