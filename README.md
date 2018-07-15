@@ -103,7 +103,7 @@ On the FAME window we need to specify a Postcode range indicating 'From' and 'To
 
 After indicating the postcode range you should be able to perform the query. 
 
-**Add / OK / View results > / Add/remove columns**
+**Add / OK / View results >**
 
 [![https://gyazo.com/cb4d8dd7c62e72773ed2d5b37e101ab9](https://i.gyazo.com/cb4d8dd7c62e72773ed2d5b37e101ab9.gif)](https://gyazo.com/cb4d8dd7c62e72773ed2d5b37e101ab9)
 
@@ -141,7 +141,7 @@ Next, open QGIS and click trough the following sequences:
 
 * To create a new project:
 
-**Project / New **
+**Project / New**
 
 Note in the lower right corner that the project's default CRS (Coordinate Reference System) would be EPSG:4326, which is equivalent to [WGS 84](https://en.wikipedia.org/wiki/World_Geodetic_System), the latest revision of the World Geodesic System established in 1984.
 
