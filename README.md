@@ -41,7 +41,7 @@ By the end of this lesson you would be able to:
 
 ### 2. Lesson structure
 
-The lesson is organised in four sections. The first section is an introduction to basic concepts of cartography and mapping. The following section describes the resources needed to create an interactive map. The third section will focus on data manipulation in the QGIS environment. Finally, the last section refers to creating an interactive map on the CARTO platform.
+The lesson is organised in four sections. The first section is an introduction to basic concepts of cartography and mapping. The second section describes the resources needed to create an interactive map. The third section will focus on data manipulation in the QGIS environment. Finally, the last section refers to creating an interactive map on the CARTO platform.
 
 [![Image from Gyazo](https://i.gyazo.com/c3076768715ee0cf6ebfc7342f265fe8.png)](https://gyazo.com/c3076768715ee0cf6ebfc7342f265fe8)
 
@@ -211,7 +211,7 @@ Then, in the search box search for *displacement* and click on the **Point displ
 
 [![Image from Gyazo](https://i.gyazo.com/e190fc28e2bd1ad0df26aa5dbd350057.png)](https://gyazo.com/e190fc28e2bd1ad0df26aa5dbd350057)
 
-In the pop-up window, for the **Input layer** selector choose the 'Valid output' layer, keep the dafault values and click **Run**. As a result, you will have created a new layer 'Displaced'. This will be your new working data. Note how the points on the 'Displaced' layer were organized around the 'Valid output' layer through this operation that moved the overlaping points a small distance from their original position and organized them concentrically.
+In the pop-up window, for the **Input layer** selector choose the 'Valid output' layer, keep the dafault values and click **Run**. As a result, you will have created a new layer 'Displaced'. This will be your new working data. Note how the points on the 'Displaced' layer are now organized around the 'Valid output' layer through this operation that moved the overlaping points a small distance from their original position and organized them concentrically.
 
 [![Image from Gyazo](https://i.gyazo.com/aaed53dd41f7b7eab3683f4c7eeb0fe2.png)](https://gyazo.com/aaed53dd41f7b7eab3683f4c7eeb0fe2)
 
