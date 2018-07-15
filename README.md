@@ -232,7 +232,7 @@ To be able to 'see' your data on top of the base map click on the 'OpenStreetMap
 
 ---
 
-Now, you should be able to see the 'Displaced' layer on top of the base map. Because of the different CRS of the layers, note how the 'Displaced' layer looks skewed. The explanation of this was covered with more detail on section **3. Introduction**. Similarly to what happened with the 'displacement' process this new type of representation should not affect the overall visual analysis of the data.
+Now, you should be able to see the 'Displaced' layer on top of the base map. Because of the different CRS of the layers, note how the 'Displaced' layer looks oblique. The explanation of this was covered with more detail on section **3. Introduction**. Similarly to what happened with the 'displacement' process this new type of representation should not affect the overall visual analysis of the data.
 
 To finish the operations on QGIS, we need to export the 'Displaced' layer as a GeoJSON file:
 
@@ -265,7 +265,7 @@ Similar to QGIS, the information is organized in layers. Before customizing your
 
 ---
 
-Go <- Back to the main screen (blue letter on the top left).
+Go <- Back to the main screen (blue letters on the top left).
 Click on your data layer to edit its **STYLE** (this will have the same name of your uploaded GeoJSON file)
 The panel on the left will change. Keep *1. Aggregation* as default. On *2. Style* change the **POINT SIZE** value to 10. Then, on **POINT COLOR** change from 'Solid' to 'By Value' and choose a column of categoric data (e.g.: primary_uk_sic_2007_code). Click on 'Quantiles' and select 'Category'. Select the color scheme of your preference (ideally one that contrasts with your base map). Select any color number and change the 'transparency' value from '1' to '0.5'. Click 'out' of the pop-up window.
 
@@ -309,11 +309,11 @@ The information on the interactive map can be 'separated' by layers applying fil
 
 [![Image from Gyazo](https://i.gyazo.com/8b896e03482f792cf846f2b2410e955e.png)](https://gyazo.com/8b896e03482f792cf846f2b2410e955e)
 
-Alternatively, a more diagramatic method of representation like the Cartogram can facilitate a general overview of concentration of activities. Cartograms are produced by placing a regular grid over a conventional map of whatever it is you want to show (source: [Spatial.ly](http://spatial.ly/2009/10/cartograms/)). To create a cartogram in CARTO we need to change the aggregation style of the map from 'By Points' to 'By Squares' or 'By Hexbins'. This will draw a grid over your map and calculate the number of observations inside each of the units. 
+Alternatively, a more diagramatic method of representation like a Cartogram can facilitate a general overview of the concentration of activities. Cartograms are produced by placing a regular grid over a conventional map of whatever it is you want to show (source: [Spatial.ly](http://spatial.ly/2009/10/cartograms/)). To create a cartogram in CARTO we need to change the *1. Aggregation* **STYLE** of the map from 'By Points' to 'By Squares' or 'By Hexbins'. This will draw a grid over your map and calculate the number of observations inside each of the squares or hexagons. 
 
 [![Image from Gyazo](https://i.gyazo.com/24cff966f727a8d7d5de9db3ea523a11.gif)](https://gyazo.com/24cff966f727a8d7d5de9db3ea523a11)
 
-Finally, you can tweak the other STYLE variables to create the most appropiate visualisation (e.g.: Grid size, Color transparency, Base map)
+Finally, you can tweak the other **STYLE** variables to create the most appropiate visualisation (e.g.: Grid size, Color transparency, Base map)
 
 [![Image from Gyazo](https://i.gyazo.com/23e6f712dc167f95fc3fcc6f0b6c9dea.png)](https://gyazo.com/23e6f712dc167f95fc3fcc6f0b6c9dea)
 
