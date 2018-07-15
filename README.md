@@ -316,3 +316,5 @@ Alternatively, a more diagramatic method of representation like the Cartogram ca
 Finally, you can tweak the other STYLE variables to create the most appropiate visualisation (e.g.: Grid size, Color transparency, Base map)
 
 [![Image from Gyazo](https://i.gyazo.com/23e6f712dc167f95fc3fcc6f0b6c9dea.png)](https://gyazo.com/23e6f712dc167f95fc3fcc6f0b6c9dea)
+
+[Cartogram version](https://npalomin.carto.com/builder/4c0413ed-2c54-4b90-bfb1-d00dc142579a/embed)
