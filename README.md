@@ -226,7 +226,7 @@ Search for 'openlayers', select 'OpenLayers Plugin' and click **Install plugin**
 **Web / OpenLayers Plugin / OpenStreeMap / OpenStreetMap** (or the map of your preference)
 
 The base map will appear as a new layer on the **Layers Panel**. Also, note in the lower right corner that the CRS has changed to EPSG:3857 (OTF). 'OTF' stands for 'on the fly', which is a method that QGIS uses to transform and combine different CRS. EPSG:3857 is equivalent to WGS 84 / Pseudo Mercator, a commonly used CRS for webmaps.
-To be able to 'see' your data on top of the base map click on the 'OpenStreetMap' layer (or whicheve you chose) and drag it to the bottom of the **Layers Panel** list
+To be able to 'see' your data on top of the base map click on the 'OpenStreetMap' layer (or whichever you chose) and drag it to the bottom of the **Layers Panel** list
 
 [![Image from Gyazo](https://i.gyazo.com/7b3c35433b3d2877c9d8892c420d5dcb.gif)](https://gyazo.com/7b3c35433b3d2877c9d8892c420d5dcb)
 
