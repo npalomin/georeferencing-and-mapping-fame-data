@@ -309,8 +309,10 @@ The information on the interactive map can be 'separated' by layers applying fil
 
 [![Image from Gyazo](https://i.gyazo.com/8b896e03482f792cf846f2b2410e955e.png)](https://gyazo.com/8b896e03482f792cf846f2b2410e955e)
 
+Alternatively, a more diagramatic method of representation like the Cartogram can facilitate a general overview of concentration of activities. Cartograms are produced by placing a regular grid over a conventional map of whatever it is you want to show (source: [Spatial.ly](http://spatial.ly/2009/10/cartograms/). To create a cartogram in CARTO we need to change the aggregation style of the map from 'By Points' to 'By Squares' or 'By Hexbins'. This will draw a grid over your map and calculate the number of observations inside each of the units. 
 
+[![Image from Gyazo](https://i.gyazo.com/24cff966f727a8d7d5de9db3ea523a11.gif)](https://gyazo.com/24cff966f727a8d7d5de9db3ea523a11)
 
-
+Then, you can tweak the other STYEL variables to create the most appropiate visualisation (e.g.: Grid size, Transparency, Base Map)
 
 
