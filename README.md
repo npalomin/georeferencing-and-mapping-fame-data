@@ -127,11 +127,11 @@ The sheet named 'Results' on your exported excel file should look like this:
 
 Note that some activities don't have the Latitude-Longitude information. Also, others are located in the same geographic position (equal coordinates) which might imply that these are located in the same building.
 
-For those records that don't have the Latitude-Longitude information you can look up their position in [Google Maps](http://www.google.co.uk/maps). Search for the location and then click on the map to activate a pop-up window at the bottom of the map. You should also get a pinpoint over the place you clicked on
+For those records that don't have the Latitude-Longitude information you can look up their position in [Google Maps](http://www.google.co.uk/maps). Search for the location and then click on the map to activate a pop-up window at the bottom of the map. You should also get a pinpoint over the place you clicked on.
 
-[![Image from Gyazo](https://i.gyazo.com/a5924e8568eadff99910a5ca8e43b434.png)](https://gyazo.com/a5924e8568eadff99910a5ca8e43b434). 
+[![Image from Gyazo](https://i.gyazo.com/a5924e8568eadff99910a5ca8e43b434.png)](https://gyazo.com/a5924e8568eadff99910a5ca8e43b434)
 
-Then click on the on the coordinates shown on decimal degress in the pop-up window and copy the Latitude and Longitude from the side panel which are in this format DD° MM' SS". Finally paste these in the respective cell of your spreadsheet. Follow this same process to fill in the Latitude-Longitude information of your site observations.
+Then click on the on the coordinates shown on decimal degress in the pop-up window and copy the Latitude and Longitude from the side panel which are in this format: DD° MM' SS". Finally, paste these in the respective cell of your spreadsheet. Follow this same process to fill in the Latitude-Longitude information of your site observations.
 
 [![Image from Gyazo](https://i.gyazo.com/c802ef922a8b2b1f2211a3e605b254c6.gif)](https://gyazo.com/c802ef922a8b2b1f2211a3e605b254c6)
 
