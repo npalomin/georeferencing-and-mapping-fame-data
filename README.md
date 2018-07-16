@@ -248,7 +248,9 @@ Another way of doing an exploratory data analysis of your spatial data is to 'Se
 
 [![Image from Gyazo](https://i.gyazo.com/9c2230ed461ed4fbacc07df01d67bed0.png)](https://gyazo.com/9c2230ed461ed4fbacc07df01d67bed0)
 
-The selected elements will be higlighted in yellow and you should be able to export this data to extract it from the layer (follow the same sequence shown below plus click on the box 'Save only selected features') 
+The selected elements will be higlighted in yellow and you should be able to export this data to 'extract it' from the original layer (follow the same sequence shown below plus click on the box 'Save only selected features' and 'Add saved file to map') 
+
+---
 
 To finish the operations on QGIS, we need to export the 'Displaced' layer as a [GeoJSON file](http://geojson.org/):
 
