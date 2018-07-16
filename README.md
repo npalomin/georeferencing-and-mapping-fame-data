@@ -131,7 +131,7 @@ For those records that don't have the Latitude-Longitude information you can loo
 
 [![Image from Gyazo](https://i.gyazo.com/a5924e8568eadff99910a5ca8e43b434.png)](https://gyazo.com/a5924e8568eadff99910a5ca8e43b434)
 
-Then click on the on the coordinates shown on decimal degress in the pop-up window and copy the Latitude and Longitude from the side panel which are in this format: DD° MM' SS". Finally, paste these in the respective cell of your spreadsheet. Follow this same process to fill in the Latitude-Longitude information of your site observations.
+Then click on the on the coordinates shown on decimal degress in the pop-up window and copy the Latitude and Longitude from the side panel which are in this format: DD° MM' SS" X. Finally, paste these in the respective cell of your spreadsheet. Follow this same process to fill in the Latitude-Longitude information of your site observations.
 
 [![Image from Gyazo](https://i.gyazo.com/c802ef922a8b2b1f2211a3e605b254c6.gif)](https://gyazo.com/c802ef922a8b2b1f2211a3e605b254c6)
 
@@ -241,6 +241,14 @@ To be able to 'see' your data on top of the base map click on the 'OpenStreetMap
 ---
 
 Now, you should be able to see the 'Displaced' layer on top of the base map. Because of the different CRS of the layers, note how the 'Displaced' layer looks oblique. The explanation of this was covered with more detail on section **3. Introduction**. Similarly to what happened with the 'displacement' process this new type of representation should not affect the overall visual analysis of the data.
+
+---
+
+Another way of doing an exploratory data analysis of your spatial data is to 'Select feactures using an expression'. Try any of the alternatives available under this drop-down botton. 
+
+[![Image from Gyazo](https://i.gyazo.com/9c2230ed461ed4fbacc07df01d67bed0.png)](https://gyazo.com/9c2230ed461ed4fbacc07df01d67bed0)
+
+The selected elements will be higlighted in yellow and you should be able to export this data to extract it from the layer (follow the same sequence shown below plus click on the box 'Save only selected features') 
 
 To finish the operations on QGIS, we need to export the 'Displaced' layer as a [GeoJSON file](http://geojson.org/):
 
