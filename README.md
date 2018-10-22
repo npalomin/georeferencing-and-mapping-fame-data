@@ -159,7 +159,7 @@ Note in the lower right corner that the project's default CRS (Coordinate Refere
 
 **Layer / Add layer / Add Delimited Text Layer**
 
-On the pop-up window browse the CSV file. Set the **Encoding** to System and verify that the **DMS** box is checked ('DMS' stands for Degree Minutes Seconds). The software should recognise the CSV file information, however if not, configure the window according to the following image. **X field** is Latitude and **Y field** is Longitude:
+On the pop-up window browse the CSV file. Set the **Encoding** to System and verify that the **DMS** box is checked ('DMS' stands for Degree Minutes Seconds). The software should recognise the CSV file information, however if not, configure the window according to the following image. **X field** is Longitude and **Y field** is Latitude:
 
 [![Image from Gyazo](https://i.gyazo.com/cf59070c25d7a770a80c327ecda9793b.png)](https://gyazo.com/cf59070c25d7a770a80c327ecda9793b)
 
