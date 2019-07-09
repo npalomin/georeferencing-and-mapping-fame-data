@@ -125,6 +125,8 @@ The sheet named 'Results' on your exported excel file should look like this:
 
 [![https://gyazo.com/92f3cdf905dd68b128dfee6f2e0a4228](https://i.gyazo.com/92f3cdf905dd68b128dfee6f2e0a4228.png)](https://gyazo.com/92f3cdf905dd68b128dfee6f2e0a4228)
 
+## Getting Lat Lon information from Google Maps
+
 Note that some activities don't have the Latitude-Longitude information. Also, others are located in the same geographic position (equal coordinates) which might imply that these are located in the same building.
 
 For those records that don't have the Latitude-Longitude information you can look up their position in [Google Maps](http://www.google.co.uk/maps). Search for the location and then click on the map to activate a pop-up window at the bottom of the map. You should also get a pinpoint over the place you clicked on.
